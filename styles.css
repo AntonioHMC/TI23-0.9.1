@@ -1,0 +1,118 @@
+.chat {
+    border-radius: 15px;
+    width: 600px;
+    height: 450px;
+    border: none;
+    background-color: rgb(10, 10, 1);
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    background-color: rgb(10, 10, 1);
+}
+
+.opcao {
+    height: 25px;
+    padding-top: 15px;
+    padding-right: 10px;
+    fill: aliceblue;
+}
+
+.opcao :hover {
+    cursor: pointer;
+    transform:scale(1.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+.mensagemesquerda {
+    padding-left: 20px;
+    padding-right: 15px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #3b4a54;
+    height: 50px;
+    width: fit-content;
+    font-size: 28px;
+}
+
+
+.mensagemdireita {
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #00a884;
+    ;
+    height: 50px;
+    width: fit-content;
+    font-size: 28px;
+    margin-left: auto;
+}
+
+.visto {
+    height: 15px;
+    padding-left: 15px;
+    padding-top: 25px;
+    fill: rgb(38, 110, 168);
+}
+
+.enviado {
+    display: flex;
+    padding-left: 15px;
+    justify-content: space-between;
+    height: 15px;
+    padding-top: 25px;
+    fill: #dee8ec;
+}
+
+.dropdown1 {
+    visibility: hidden;
+    position: relative;
+    bottom: 15px;
+    left: 28px;
+    height: 13px;
+    width: 13px;
+}
+
+.mensagemesquerda:hover .dropdown1 {
+    visibility: visible;
+    cursor: pointer;
+    fill: white;
+}
+
+.dropdown2 {
+    visibility: hidden;
+    position: relative;
+    bottom: 15px;
+    left: 32px;
+    height: 13px;
+    width: 13px;   
+}
+
+.mensagemdireita:hover .dropdown2 {
+    visibility: visible;
+    fill: white;
+    cursor: pointer;
+}
